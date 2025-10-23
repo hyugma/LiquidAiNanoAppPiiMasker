@@ -1,0 +1,35 @@
+﻿<Window x:Class="LiquidAiNanoAppPiiMasker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LiquidAiNanoAppPiiMasker"
+        mc:Ignorable="d"
+        Title="PII Masker" Height="260" Width="420"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize"
+        ShowInTaskbar="True"
+        AllowDrop="True"
+        DragEnter="Window_DragEnter"
+        DragOver="Window_DragOver"
+        Drop="Window_Drop">
+    <Grid Background="#FFF8F8F8">
+        <Border Margin="16"
+                BorderThickness="2"
+                BorderBrush="#FFB0B0B0"
+                CornerRadius="8"
+                Background="White"
+                SnapsToDevicePixels="True">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="16">
+                <TextBlock Text="Drag and Drop files here to mask PII"
+                           FontSize="18"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,8"/>
+                <TextBlock Text="Supported: .docx  .pptx  .xlsx  .txt  .md  .rtf"
+                           Foreground="Gray"
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
