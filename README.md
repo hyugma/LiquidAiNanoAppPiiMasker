@@ -1,6 +1,11 @@
 # LiquidAiNanoAppPiiMasker
 
-ローカル LLM（LLamaSharp + GGUF）で PII（個人情報）候補を抽出し、Office 文書やテキストファイル内の該当箇所をマスクする Windows デスクトップアプリ（WPF）です。タスクトレイ常駐＋ドラッグ＆ドロップ UI により、ファイル／フォルダーを簡単に一括処理できます。
+https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT のGGUF版モデルを利用したサンプル/デモ アプリケーションです。
+
+ローカル LLM（LLamaSharp + GGUF）で PII（個人情報5種）候補を抽出し、Office 文書やテキストファイル内の該当箇所をマスクする Windows デスクトップアプリ（WPF）です。タスクトレイ常駐＋ドラッグ＆ドロップ UI により、ファイル／フォルダーを簡単に一括処理できます。
+
+操作動画はこちら↓
+https://www.youtube.com/watch?v=FzbfzWWb3WY
 
 - 対応 OS: Windows 10/11（x64）
 - 対応形式: .docx / .pptx / .xlsx / .txt / .md / .rtf
